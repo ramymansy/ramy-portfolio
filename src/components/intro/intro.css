@@ -1,0 +1,139 @@
+.i {
+  display: flex;
+  height: 100vh;
+}
+.i-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.i-left-wraper {
+  padding: 50px;
+  height: 47%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.i-intro {
+  font-size: 30px;
+  font-weight: 300;
+}
+.i-name {
+  font-size: 60px;
+}
+.i-title {
+  height: 50px;
+
+  overflow: hidden;
+}
+.i-title-wrapper {
+  height: 100%;
+  animation: move 15s ease-in-out infinite alternate;
+  -webkit-animation: move 15s ease-in-out infinite alternate;
+}
+@keyframes move {
+  25% {
+    transform: translateY(-50px);
+    -webkit-transform: translateY(-50px);
+    -moz-transform: translateY(-50px);
+    -ms-transform: translateY(-50px);
+    -o-transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(-100px);
+    -webkit-transform: translateY(-100px);
+    -moz-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    -o-transform: translateY(-100px);
+  }
+  75% {
+    transform: translateY(-150px);
+    -webkit-transform: translateY(-150px);
+    -moz-transform: translateY(-150px);
+    -ms-transform: translateY(-150px);
+    -o-transform: translateY(-150px);
+  }
+  100% {
+    transform: translateY(-200px);
+    -webkit-transform: translateY(-200px);
+    -moz-transform: translateY(-200px);
+    -ms-transform: translateY(-200px);
+    -o-transform: translateY(-200px);
+  }
+}
+.i-title-item {
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #6846c5;
+  display: flex;
+  align-items: center;
+}
+.i-desc {
+  width: 75%;
+}
+.i-right {
+  flex: 1;
+  position: relative;
+}
+.i-scroll {
+  width: 30px;
+  height: 40px;
+  padding-left: 2px;
+  position: absolute;
+  bottom: 60px;
+  background-color: white;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  animation: pouncing 1s ease-in-out infinite alternate;
+  -webkit-animation: pouncing 1s ease-in-out infinite alternate;
+}
+@keyframes pouncing {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.i-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+}
+.i-bg {
+  clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  background-color: #6846c5;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .i {
+    flex-direction: column;
+  }
+  .i-left-wrapper {
+    padding: 10px;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .i-title {
+    min-height: 40px;
+    overflow: hidden;
+  }
+
+  .i-desc {
+    display: none;
+  }
+}
