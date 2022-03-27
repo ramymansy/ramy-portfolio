@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ramy-portfolio/static/css/main.a8eaf4cc.css",
+    "main.js": "/ramy-portfolio/static/js/main.0bd02953.js",
+    "static/media/video.mp4": "/ramy-portfolio/static/media/video.a2703484bb9eee7d0c2e.mp4",
+    "static/media/Untitled-1.png": "/ramy-portfolio/static/media/Untitled-1.4f7471dc0fe7943058d9.png",
+    "index.html": "/ramy-portfolio/index.html",
+    "main.a8eaf4cc.css.map": "/ramy-portfolio/static/css/main.a8eaf4cc.css.map",
+    "main.0bd02953.js.map": "/ramy-portfolio/static/js/main.0bd02953.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8eaf4cc.css",
+    "static/js/main.0bd02953.js"
+  ]
+}
