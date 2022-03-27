@@ -8,16 +8,13 @@ import {
   Instagram,
   GitHub,
 } from "@mui/icons-material";
-import { useContext, useRef, useState } from "react";
-import { ThemeContext } from "../../context";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const formRef = useRef();
 
   const [done, setDone] = useState(false);
-  const theme = useContext(ThemeContext);
-  const darkMode = theme.state.darkMode;
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -41,6 +38,12 @@ const Contact = () => {
 
   return (
     <div className="c" id="contact">
+      <div class="space">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+      </div>
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
@@ -48,11 +51,17 @@ const Contact = () => {
           <div className="c-info">
             <div className="c-info-item">
               <WhatsApp className="c-icon" />
-              +2 011 2386 2211
+              <a
+                href="https://api.whatsapp.com/send?phone=00201123862211"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                WhatsApp Chat
+              </a>
             </div>
             <div className="c-info-item">
               <Email className="c-icon" />
-              codna.dev@outlook.com
+              <a href="mailto:codna.dev@outlook.com">Send Mail</a>
             </div>
           </div>
           <div className="c-social">
@@ -69,32 +78,14 @@ const Contact = () => {
             freelancing if the right project comes along me.
           </p>
           <form ref={formRef} onSubmit={sendEmail}>
-            <input
-              style={{ backgroundColor: darkMode && "white" }}
-              type="text"
-              placeholder="Name"
-              name="user_name"
-            />
-            <input
-              style={{ backgroundColor: darkMode && "white" }}
-              type="text"
-              placeholder="Subject"
-              name="user_subject"
-            />
-            <input
-              style={{ backgroundColor: darkMode && "white" }}
-              type="text"
-              placeholder="Email"
-              name="user_email"
-            />
-            <textarea
-              style={{ backgroundColor: darkMode && "white" }}
-              rows="5"
-              placeholder="Message"
-              name="message"
-            />
+            <input type="text" placeholder="Name" name="user_name" />
+            <input type="text" placeholder="Subject" name="user_subject" />
+            <input type="email" placeholder="Email" name="user_email" />
+            <textarea rows="5" placeholder="Message . . ." name="message" />
             <button>Submit</button>
-            {done && "Thank you..."}
+            {done && (
+              <p className="thanks">Your message was sent successfully</p>
+            )}
           </form>
         </div>
       </div>

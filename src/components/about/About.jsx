@@ -1,13 +1,18 @@
 import "./about.css";
-import Dev from "../../img/Dev.png";
+import Dev from "../../img/Untitled-1.png";
 
 const About = () => {
   return (
     <div className="a" id="about">
+      <div class="space">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+      </div>
       <div className="a-left">
-        <div className="a-card bg"></div>
         <div className="a-card">
-          <img src={Dev} alt="" className="a-img" />
+          <img src={Dev} alt="dev" className="a-img" />
         </div>
       </div>
       <div className="a-right">
@@ -19,9 +24,13 @@ const About = () => {
         </p>
         <p
           className="a-desc"
-          style={{ color: "#6846c5", textTransform: "uppercase" }}
+          style={{
+            color: "#4b6fff",
+            textTransform: "capitalize",
+            fontSize: "24px",
+          }}
         >
-          I'm an Expert on using a Wide Variety of Skills Like:
+          Skills
         </p>
         <p className="a-desc">JavaScript - React - Next</p>
         <p className="a-desc">jQuery - NodeJs - EcmaScript</p>

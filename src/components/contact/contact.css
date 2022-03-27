@@ -1,12 +1,14 @@
 .c {
+  background-color: #000;
   height: 100vh;
   position: relative;
+  z-index: 1;
 }
 
 .c-bg {
   width: 20px;
   height: 100%;
-  background-color: #6846c5;
+  background-color: #4b6fff;
   position: absolute;
 }
 
@@ -22,6 +24,7 @@
 .c-title {
   font-size: 60px;
   width: 80%;
+  color: #4b6fff;
 }
 
 .c-info-item {
@@ -30,12 +33,14 @@
   margin: 50px 0px;
   font-weight: 300;
   width: 70%;
+  color: #fff;
 }
 
 .c-icon {
   width: 30px;
   height: 30px;
   margin-right: 20px;
+  color: #4b6fff;
 }
 .c-social {
   width: 100%;
@@ -45,7 +50,8 @@
   justify-content: flex-start;
 }
 .facebook {
-  font-size: 40px !important;
+  color: #fff;
+  font-size: 30px !important;
   margin-right: 30px;
   cursor: pointer;
   transition: all 0.5s ease !important;
@@ -56,9 +62,15 @@
 }
 .facebook:hover {
   color: #1877f2;
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
 }
 .twitter {
-  font-size: 40px !important;
+  color: #fff;
+  font-size: 30px !important;
   margin-right: 30px;
   cursor: pointer;
   transition: all 0.5s ease !important;
@@ -69,9 +81,15 @@
 }
 .twitter:hover {
   color: #1da1f2;
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
 }
 .youtube {
-  font-size: 40px !important;
+  color: #fff;
+  font-size: 30px !important;
   margin-right: 30px;
   cursor: pointer;
   transition: all 0.5s ease !important;
@@ -82,9 +100,15 @@
 }
 .youtube:hover {
   color: #ff0000;
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
 }
 .instagram {
-  font-size: 40px !important;
+  color: #fff;
+  font-size: 30px !important;
   margin-right: 30px;
   cursor: pointer;
   transition: all 0.5s ease !important;
@@ -95,9 +119,15 @@
 }
 .instagram:hover {
   color: #c13584;
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
 }
 .github {
-  font-size: 40px !important;
+  color: #fff;
+  font-size: 30px !important;
   margin-right: 30px;
   cursor: pointer;
   transition: all 0.5s ease !important;
@@ -108,6 +138,11 @@
 }
 .github:hover {
   color: #6cc644;
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
 }
 .c-right {
   flex: 1;
@@ -119,9 +154,10 @@
 
 .c-desc {
   font-weight: 200;
+  color: #fff;
 }
 .c-desc > b {
-  color: #6846c5;
+  color: #4b6fff;
 }
 
 form {
@@ -132,33 +168,62 @@ input {
   width: 45%;
   height: 50px;
   border: none;
-  border-bottom: 1px solid #6846c5;
+  background-color: #111;
+  border: 1px solid #4b6fff;
+  color: #4b6fff;
   margin: 10px 30px 10px 0px;
   font-size: 14px;
-  padding-left: 10px;
+  padding-left: 20px;
   outline: none;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }
-
+input::placeholder {
+  color: #4b6fff;
+}
 textarea {
   width: 100%;
   height: 300px;
   margin: 20px 0px;
   font-size: 14px;
-  padding: 10px;
-  border-color: #6846c5;
+  padding: 10px 20px;
+  background-color: #111;
+  border: 1px solid #4b6fff;
+  color: #4b6fff;
   outline: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+textarea::placeholder {
+  color: #4b6fff;
 }
 
 button {
   border: none;
-  padding: 15px;
-  background-color: #6846c5;
-  color: white;
+  padding: 10px 40px;
+  background-color: #2b55fd;
+  color: #000;
+  font-size: 1.2rem;
   font-weight: 500;
   cursor: pointer;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }
-
-@media screen and (max-width: 480px) {
+.thanks {
+  color: #2b55fd;
+  margin-top: -35px;
+  padding-left: 11rem;
+}
+@media screen and (max-width: 940px) {
   .c-wrapper {
     flex-direction: column;
     padding: 0px 50px;
@@ -166,19 +231,19 @@ button {
 
   .c-title {
     width: 100%;
-    font-size: 30px;
-    margin-top: 40px;
+    font-size: 28px;
+    margin-top: 0px;
   }
 
   .c-info-item {
-    margin: 40px 0px 20px 0px;
+    margin: 30px 0px 20px 0px;
     width: 100%;
   }
   .c-social {
     width: 100%;
     height: 50px;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
   }
   .facebook {
     font-size: 30px !important;
@@ -206,7 +271,7 @@ button {
   }
 
   form {
-    margin-top: 0px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -224,5 +289,10 @@ button {
 
   button {
     margin-top: 10px;
+  }
+  .thanks {
+    margin-top: 5px;
+    padding-left: 0.75rem;
+    text-align: center;
   }
 }
