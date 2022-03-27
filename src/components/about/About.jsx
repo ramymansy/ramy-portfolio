@@ -4,12 +4,6 @@ import Dev from "../../img/Untitled-1.png";
 const About = () => {
   return (
     <div className="a" id="about">
-      <div class="space">
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-      </div>
       <div className="a-left">
         <div className="a-card">
           <img src={Dev} alt="dev" className="a-img" />
@@ -19,8 +13,7 @@ const About = () => {
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">
           I have highly skilled development web, apps experience, all this made
-          me able <br />
-          to develop a web, app from start to end.
+          me able to develop a web, app from start to end.
         </p>
         <p
           className="a-desc"

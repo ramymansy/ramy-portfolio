@@ -38,12 +38,6 @@ const Contact = () => {
 
   return (
     <div className="c" id="contact">
-      <div class="space">
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-      </div>
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
@@ -83,9 +77,7 @@ const Contact = () => {
             <input type="email" placeholder="Email" name="user_email" />
             <textarea rows="5" placeholder="Message . . ." name="message" />
             <button>Submit</button>
-            {done && (
-              <p className="thanks">Your message was sent successfully</p>
-            )}
+            {done && <p className="thanks">Successfully Sent</p>}
           </form>
         </div>
       </div>

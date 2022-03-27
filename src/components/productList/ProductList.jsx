@@ -5,12 +5,6 @@ import { products } from "../../data.js";
 const ProductList = () => {
   return (
     <div className="pl" id="works">
-      <div class="space">
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-      </div>
       <div className="pl-texts">
         <h1 className="pl-title">Creative & inspire ...</h1>
         <p className="pl-desc">
