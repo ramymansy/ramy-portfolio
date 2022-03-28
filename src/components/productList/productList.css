@@ -1,5 +1,5 @@
 .pl {
-  background-color: #000;
+  background-color: #d1d1d1;
   padding: 50px 100px;
   display: flex;
   flex-direction: column;
@@ -18,8 +18,9 @@
 }
 
 .pl-desc {
+  font-size: 1.2rem;
   margin: 20px 0px;
-  color: #fff;
+  color: #222;
 }
 
 .pl-list {
