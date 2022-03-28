@@ -46,7 +46,7 @@ const Contact = () => {
             <div className="c-info-item">
               <WhatsApp className="c-icon" />
               <a
-                href="https://api.whatsapp.com/send?phone=00201123862211"
+                href="https://api.whatsapp.com/send?phone=201123862211"
                 target="_blank"
                 rel="noreferrer noopener"
               >
