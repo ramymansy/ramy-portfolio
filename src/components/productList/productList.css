@@ -1,5 +1,5 @@
 .pl {
-  background-color: #d1d1d1;
+  background-color: #005aba;
   padding: 50px 100px;
   display: flex;
   flex-direction: column;
@@ -14,13 +14,13 @@
 .pl-title {
   font-size: 40px;
   font-weight: 600;
-  color: #4b6fff;
+  color: #feb800;
 }
 
 .pl-desc {
   font-size: 1.2rem;
   margin: 20px 0px;
-  color: #222;
+  color: #fff;
 }
 
 .pl-list {
@@ -32,7 +32,7 @@
 
 @media screen and (max-width: 940px) {
   .pl {
-    padding: 5rem 1.5rem;
+    padding: 2rem 1.5rem;
   }
 
   .pl-texts {
@@ -43,7 +43,7 @@
     margin: 10px;
   }
   .pl-desc {
-    width: 90%;
+    width: 100%;
     margin: 10px auto;
   }
 }

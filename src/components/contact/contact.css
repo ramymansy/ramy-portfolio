@@ -1,15 +1,16 @@
 .c {
-  background-color: #d1d1d1;
+  background-color: #005aba;
   height: 100vh;
   position: relative;
   z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-.c-bg {
-  width: 20px;
-  height: 100%;
-  background-color: #4b6fff;
-  position: absolute;
+.container {
+  width: 80%;
+  height: 80%;
+  background-color: #feb800;
 }
 
 .c-wrapper {
@@ -22,29 +23,41 @@
 }
 
 .c-title {
-  font-size: 60px;
-  width: 80%;
+  font-size: 50px;
+  width: 100%;
   color: #222;
+  margin-bottom: 2rem;
 }
 
-.c-info-item {
+.c-whatsapp,
+.c-mail {
+  background-color: #005aba;
+  width: fit-content;
+  padding: 0.5rem 1.5rem;
   display: flex;
   align-items: center;
-  margin: 50px 0px;
+  justify-content: flex-start;
+  margin-top: 1rem;
+  color: #feb800;
   font-weight: 500;
-  width: 70%;
-  color: #222;
+  font-size: 1.1rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
 }
-
+.c-mail {
+  margin-bottom: 4rem;
+}
 .c-icon {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   margin-right: 20px;
-  color: #4b6fff;
+  color: #feb800;
 }
 .c-social {
   width: 100%;
-  height: 220px;
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
@@ -137,7 +150,7 @@
   -o-transition: all 0.5s ease !important;
 }
 .github:hover {
-  color: #6cc644;
+  color: #555;
   transform: scale(1.5);
   -webkit-transform: scale(1.5);
   -moz-transform: scale(1.5);
@@ -154,53 +167,50 @@
 
 .c-desc {
   font-weight: 400;
+  width: 90%;
   color: #222;
+  margin-bottom: 2rem;
 }
 .c-desc > b {
-  color: #4b6fff;
+  color: #005aba;
   font-size: 1.2rem;
 }
 
-form {
-  margin-top: 20px;
-}
-
 input {
-  width: 45%;
-  height: 50px;
+  width: 60%;
+  height: 45px;
   border: none;
-  background-color: #d1d1d1;
-  border-top: 1px solid #4b6fff;
-  border-bottom: 5px solid #4b6fff;
+  background-color: transparent;
+  border: 2px solid #4b6fff;
   color: #222;
   margin: 10px 30px 10px 0px;
   font-size: 16px;
-  padding-left: 20px;
+  padding-left: 10px;
   outline: none;
-  border-radius: 50px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  -ms-border-radius: 50px;
-  -o-border-radius: 50px;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
 }
 input::placeholder {
   color: #222;
 }
 textarea {
   width: 100%;
-  height: 300px;
+  height: 200px;
   margin: 20px 0px;
   font-size: 16px;
-  padding: 10px 20px;
-  background-color: #d1d1d1;
+  padding: 10px;
+  background-color: transparent;
   border: 2px solid #4b6fff;
   color: #222;
   outline: none;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
 }
 textarea::placeholder {
   color: #222;
@@ -209,8 +219,8 @@ textarea::placeholder {
 button {
   border: none;
   padding: 10px 40px;
-  background-color: #2b55fd;
-  color: #d1d1d1;
+  background-color: #005aba;
+  color: #feb800;
   font-size: 1.2rem;
   font-weight: 500;
   cursor: pointer;
@@ -226,20 +236,29 @@ button:hover {
 .thanks {
   color: #2b55fd;
   margin-top: -35px;
-  padding-left: 11rem;
+  padding-left: 15rem;
+  font-weight: 500;
 }
 @media screen and (max-width: 940px) {
+  .container {
+    width: 90%;
+    height: 95%;
+  }
   .c-wrapper {
     flex-direction: column;
-    padding: 0 3rem;
+    padding: 0 1rem;
   }
-
+  .c-whatsapp,
+  .c-mail {
+    padding: 0.5rem 1rem;
+    margin: 1rem auto;
+  }
   .c-title {
     width: 100%;
     font-size: 26px;
     margin-top: 1rem;
+    text-align: center;
   }
-
   .c-info-item {
     margin: 30px 0px 20px 0px;
     width: 100%;
@@ -276,7 +295,7 @@ button:hover {
   }
 
   form {
-    margin-top: 30px;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -285,16 +304,16 @@ button:hover {
   input {
     width: 100%;
     height: 40px;
-    margin: 10px;
+    margin: 10px auto;
   }
   textarea {
     height: 150px;
-    margin: 20px 10px;
+    margin: 10px auto;
   }
 
   button {
     width: 100%;
-    margin: 10px;
+    margin: 10px auto;
   }
   .thanks {
     margin-top: 5px;

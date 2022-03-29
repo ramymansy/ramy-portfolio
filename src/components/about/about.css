@@ -1,5 +1,5 @@
 .a {
-  background-color: #d1d1d1;
+  background-color: #fff;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -21,9 +21,7 @@
 }
 
 .a-card {
-  width: 60%;
   height: 70vh;
-  position: relative;
 }
 
 .a-img {
@@ -31,11 +29,8 @@
   height: 100%;
   object-fit: cover;
   padding-bottom: 2rem;
-  background: rgb(34, 34, 34, 0.9);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  border-top: 8px solid #4b6fff;
-  border-left: 8px solid #4b6fff;
   border-radius: 2rem;
   -webkit-border-radius: 2rem;
   -moz-border-radius: 2rem;
@@ -43,25 +38,71 @@
   -o-border-radius: 2rem;
 }
 
-.a-title {
-  width: 400px;
-  font-weight: 400;
-  color: #4b6fff;
+.a-about-title {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #feb800;
+  margin: 1rem;
+  background-color: #005aba;
+  padding: 0.25rem;
+  text-align: center;
+  width: 10rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
 }
 
-.a-sub {
-  width: 400px;
-  margin: 10px 0px;
+.a-about-content {
+  width: 40rem;
+  margin: 1rem;
   font-weight: 400;
-  font-size: 18px;
-  color: #222;
+  font-size: 1.2rem;
+  color: #005aba;
+  padding: 0.25rem 1.1rem;
 }
 
-.a-desc {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 2;
-  color: #222;
+.a-skills-title {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #feb800;
+  background-color: #005aba;
+  padding: 0.25rem;
+  width: 10rem;
+  text-align: center;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+.a-skills-list ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.a-skills-list li {
+  background-color: transparent;
+  color: #005aba;
+  border: 1.5px solid #005aba;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 1rem;
+  padding: 0.5rem 1.1rem;
+  display: flex;
+  align-items: center;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+.logo {
+  color: #005aba;
+  font-size: 1.5rem;
+  margin-right: 0.75rem;
 }
 
 @media screen and (max-width: 940px) {
@@ -83,19 +124,21 @@
   .a-right {
     width: 100%;
   }
-  .a-title {
-    width: 100%;
+  .a-about-title {
+    margin: auto;
+  }
+  .a-skills-title {
+    margin: 1rem auto;
   }
   .a-sub {
     width: 100%;
     padding: 0.5rem 1.5rem;
   }
-  .a-desc {
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 1.6;
-    text-transform: uppercase;
-    text-align: center;
-    padding-bottom: 10px;
+  .a-about-content {
+    width: 90%;
+    padding: 0.25rem 0.5rem;
+  }
+  .a-skills-list ul {
+    justify-content: center;
   }
 }

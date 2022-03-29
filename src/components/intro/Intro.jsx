@@ -1,13 +1,8 @@
 import "./intro.css";
-import Video from "../../assests/video.mp4";
 
 const Intro = () => {
   return (
     <div className="i">
-      <video loop autoPlay muted className="video">
-        <source src={Video} type="video/mp4" />
-      </video>
-      <div className="overlay"></div>
       <div className="navbar">
         <ul>
           <li>
@@ -15,11 +10,13 @@ const Intro = () => {
               About
             </a>
           </li>
+          <span style={{ color: "#fff" }}>|</span>
           <li>
             <a className="projects" href="#works">
               Projects
             </a>
           </li>
+          <span style={{ color: "#fff" }}>|</span>
           <li>
             <a className="contact" href="#contact">
               Contact
@@ -29,7 +26,9 @@ const Intro = () => {
       </div>
       <div className="i-wraper">
         <h2 className="i-intro">Welcome To My Portfolio</h2>
-        <h1 className="i-name">Ramy</h1>
+        <h1 className="i-name">
+          <span style={{ fontSize: "28px", fontWeight: "200" }}>I'm</span> Ramy
+        </h1>
         <div className="i-title">
           <div className="i-title-wrapper">
             <div className="i-title-item">Fron-End Dev</div>
@@ -41,10 +40,9 @@ const Intro = () => {
         </div>
         <div className="i-desc">
           <p>
-            Here You Will Find What Is You looking For About success,
+            Here You Will Find What Is You looking For
             <br />
-            Development Business And Increase Profits.
-            <br /> I'll be Happy to help you to reach your goal.
+            success, Development And Increase Business Profits.
           </p>
         </div>
       </div>

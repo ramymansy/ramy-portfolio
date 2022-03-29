@@ -1,5 +1,27 @@
 import "./about.css";
-import Dev from "../../img/Untitled-1.png";
+import Dev from "../../img/Untitled-2.png";
+import {
+  SiJavascript,
+  SiReact,
+  SiNextdotjs,
+  SiJquery,
+  SiNodedotjs,
+  SiTypescript,
+  SiHtml5,
+  SiCss3,
+  SiSass,
+  SiBootstrap,
+  SiTailwindcss,
+  SiMaterialui,
+  SiStyledcomponents,
+  SiGit,
+  SiGithub,
+  SiFigma,
+  SiAdobexd,
+  SiAdobephotoshop,
+  SiAdobeillustrator,
+  SiAdobeindesign,
+} from "react-icons/si";
 
 const About = () => {
   return (
@@ -10,29 +32,97 @@ const About = () => {
         </div>
       </div>
       <div className="a-right">
-        <h1 className="a-title">About Me</h1>
-        <p className="a-sub">
-          I have highly skilled development web, apps experience, all this made
-          me able to develop a web, app from start to end.
+        <h1 className="a-about-title">About Me</h1>
+        <p className="a-about-content">
+          I have Many Development Web Skills Experience,
+          <br />
+          Made Me Able To Develop a Web, App From Start To End.
         </p>
-        <p
-          className="a-desc"
-          style={{
-            color: "#4b6fff",
-            textTransform: "capitalize",
-            fontSize: "24px",
-          }}
-        >
-          Skills
-        </p>
-        <p className="a-desc">JavaScript - React - Next</p>
-        <p className="a-desc">jQuery - NodeJs - EcmaScript</p>
-        <p className="a-desc">HTML - CSS - scss - Saas</p>
-        <p className="a-desc">Bootstrap - Tailwind</p>
-        <p className="a-desc">Material UI - Styled Components</p>
-        <p className="a-desc">Git - Github</p>
-        <p className="a-desc">Figma - Adobe XD</p>
-        <p className="a-desc">Photoshop - Illustrator - Indesign</p>
+        <h2 className="a-skills-title">Skills</h2>
+        <div className="a-skills-list">
+          <ul>
+            <li>
+              <SiJavascript className="logo" />
+              JavaScript
+            </li>
+            <li>
+              <SiReact className="logo" />
+              React
+            </li>
+            <li>
+              <SiNextdotjs className="logo" />
+              Next
+            </li>
+            <li>
+              <SiJquery className="logo" />
+              jQuery
+            </li>
+            <li>
+              <SiNodedotjs className="logo" />
+              NodeJs
+            </li>
+            <li>
+              <SiTypescript className="logo" />
+              TypeScript
+            </li>
+            <li>
+              <SiHtml5 className="logo" />
+              HTML
+            </li>
+            <li>
+              <SiCss3 className="logo" />
+              CSS
+            </li>
+            <li>
+              <SiSass className="logo" />
+              Saas
+            </li>
+            <li>
+              <SiBootstrap className="logo" />
+              Bootstrap
+            </li>
+            <li>
+              <SiTailwindcss className="logo" />
+              Tailwind
+            </li>
+            <li>
+              <SiMaterialui className="logo" />
+              Material-UI
+            </li>
+            <li>
+              <SiStyledcomponents className="logo styled" />
+              Styled-Components
+            </li>
+            <li>
+              <SiGit className="logo" />
+              Git
+            </li>
+            <li>
+              <SiGithub className="logo" />
+              Github
+            </li>
+            <li>
+              <SiFigma className="logo" />
+              Figma
+            </li>
+            <li>
+              <SiAdobexd className="logo" />
+              Adobe XD
+            </li>
+            <li>
+              <SiAdobephotoshop className="logo" />
+              Photoshop
+            </li>
+            <li>
+              <SiAdobeillustrator className="logo" />
+              Illustrator
+            </li>
+            <li>
+              <SiAdobeindesign className="logo" />
+              Indesign
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
