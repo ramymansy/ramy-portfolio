@@ -1,8 +1,7 @@
 .c {
-  background-color: #005aba;
+  background-color: #fff;
   height: 100vh;
   position: relative;
-  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,7 +9,8 @@
 .container {
   width: 80%;
   height: 80%;
-  background-color: #feb800;
+  background-color: #005aba;
+  margin-top: 50px;
 }
 
 .c-wrapper {
@@ -25,20 +25,35 @@
 .c-title {
   font-size: 50px;
   width: 100%;
-  color: #222;
+  color: #fff;
   margin-bottom: 2rem;
 }
-
+.c-title span {
+  color: #feb800;
+}
+.c-desc {
+  font-weight: 300;
+  width: 90%;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.c-desc span {
+  color: #feb800;
+}
+.c-desc > b {
+  color: #fff;
+  font-size: 1.2rem;
+}
 .c-whatsapp,
 .c-mail {
-  background-color: #005aba;
+  background-color: #feb800;
   width: fit-content;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1rem;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   margin-top: 1rem;
-  color: #feb800;
+  color: #222;
   font-weight: 500;
   font-size: 1.1rem;
   border-radius: 2rem;
@@ -54,7 +69,7 @@
   width: 25px;
   height: 25px;
   margin-right: 20px;
-  color: #feb800;
+  color: #222;
 }
 .c-social {
   width: 100%;
@@ -63,7 +78,7 @@
   justify-content: flex-start;
 }
 .facebook {
-  color: #222;
+  color: #fff;
   font-size: 30px !important;
   margin-right: 30px;
   cursor: pointer;
@@ -74,7 +89,6 @@
   -o-transition: all 0.5s ease !important;
 }
 .facebook:hover {
-  color: #1877f2;
   transform: scale(1.5);
   -webkit-transform: scale(1.5);
   -moz-transform: scale(1.5);
@@ -82,7 +96,7 @@
   -o-transform: scale(1.5);
 }
 .twitter {
-  color: #222;
+  color: #fff;
   font-size: 30px !important;
   margin-right: 30px;
   cursor: pointer;
@@ -93,7 +107,6 @@
   -o-transition: all 0.5s ease !important;
 }
 .twitter:hover {
-  color: #1da1f2;
   transform: scale(1.5);
   -webkit-transform: scale(1.5);
   -moz-transform: scale(1.5);
@@ -101,7 +114,7 @@
   -o-transform: scale(1.5);
 }
 .youtube {
-  color: #222;
+  color: #fff;
   font-size: 30px !important;
   margin-right: 30px;
   cursor: pointer;
@@ -112,7 +125,6 @@
   -o-transition: all 0.5s ease !important;
 }
 .youtube:hover {
-  color: #ff0000;
   transform: scale(1.5);
   -webkit-transform: scale(1.5);
   -moz-transform: scale(1.5);
@@ -120,7 +132,7 @@
   -o-transform: scale(1.5);
 }
 .instagram {
-  color: #222;
+  color: #fff;
   font-size: 30px !important;
   margin-right: 30px;
   cursor: pointer;
@@ -131,7 +143,6 @@
   -o-transition: all 0.5s ease !important;
 }
 .instagram:hover {
-  color: #c13584;
   transform: scale(1.5);
   -webkit-transform: scale(1.5);
   -moz-transform: scale(1.5);
@@ -139,7 +150,7 @@
   -o-transform: scale(1.5);
 }
 .github {
-  color: #222;
+  color: #fff;
   font-size: 30px !important;
   margin-right: 30px;
   cursor: pointer;
@@ -150,7 +161,6 @@
   -o-transition: all 0.5s ease !important;
 }
 .github:hover {
-  color: #555;
   transform: scale(1.5);
   -webkit-transform: scale(1.5);
   -moz-transform: scale(1.5);
@@ -164,85 +174,75 @@
   align-items: center;
   justify-content: center;
 }
-
-.c-desc {
-  font-weight: 400;
-  width: 90%;
-  color: #222;
-  margin-bottom: 2rem;
-}
-.c-desc > b {
-  color: #005aba;
-  font-size: 1.2rem;
-}
-
 input {
   width: 60%;
   height: 45px;
   border: none;
   background-color: transparent;
-  border: 2px solid #4b6fff;
-  color: #222;
+  color: #fff;
   margin: 10px 30px 10px 0px;
   font-size: 16px;
-  padding-left: 10px;
+  font-weight: 300;
+  border-bottom: 2px solid #feb800;
   outline: none;
-  border-radius: 0.5rem;
-  -webkit-border-radius: 0.5rem;
-  -moz-border-radius: 0.5rem;
-  -ms-border-radius: 0.5rem;
-  -o-border-radius: 0.5rem;
 }
 input::placeholder {
-  color: #222;
+  color: #fff;
 }
+
 textarea {
   width: 100%;
   height: 200px;
   margin: 20px 0px;
   font-size: 16px;
+  font-weight: 300;
   padding: 10px;
   background-color: transparent;
-  border: 2px solid #4b6fff;
-  color: #222;
+  border: 2px solid #feb800;
+  color: #fff;
   outline: none;
-  border-radius: 0.5rem;
-  -webkit-border-radius: 0.5rem;
-  -moz-border-radius: 0.5rem;
-  -ms-border-radius: 0.5rem;
-  -o-border-radius: 0.5rem;
 }
 textarea::placeholder {
-  color: #222;
+  color: #fff;
 }
 
 button {
   border: none;
-  padding: 10px 40px;
-  background-color: #005aba;
-  color: #feb800;
+  padding: 0.5rem 1rem;
+  background-color: #feb800;
+  color: #222;
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 400;
   cursor: pointer;
-  border-radius: 50px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  -ms-border-radius: 50px;
-  -o-border-radius: 50px;
+  border: 1px solid #feb800;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-button:hover {
-  background-color: #1f4bff;
-}
+
 .thanks {
-  color: #2b55fd;
+  color: #fff;
   margin-top: -35px;
   padding-left: 15rem;
   font-weight: 500;
 }
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 992px) {
+  .c {
+    padding: 1.5rem 0.5rem;
+  }
   .container {
-    width: 90%;
+    width: 100%;
     height: 95%;
+    margin-top: 70px;
+    margin-bottom: 0.75rem;
   }
   .c-wrapper {
     flex-direction: column;
@@ -255,8 +255,8 @@ button:hover {
   }
   .c-title {
     width: 100%;
-    font-size: 26px;
-    margin-top: 1rem;
+    font-size: 25px;
+    margin: 1rem 0;
     text-align: center;
   }
   .c-info-item {

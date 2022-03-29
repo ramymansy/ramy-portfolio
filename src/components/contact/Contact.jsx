@@ -40,12 +40,18 @@ const Contact = () => {
       <div className="container">
         <div className="c-wrapper">
           <div className="c-left">
-            <h1 className="c-title">Let's discuss your project</h1>
+            <h1 className="c-title">
+              <span>Let's</span> discuss your project
+            </h1>
             <p className="c-desc">
-              <b>What’s your story?</b>
+              <b>
+                Get in <span>touch</span>
+                <br />
+                What’s your <span>story</span>?
+              </b>
               <br />
-              Get in touch. Always available for freelancing if the right
-              project comes along me.
+              I'm Always available for freelancing if the right project comes
+              along me.
             </p>
             <div className="c-info">
               <button className="c-whatsapp">
