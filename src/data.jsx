@@ -1,7 +1,7 @@
 export const products = [
   {
     id: 1,
-    img: "https://i.ibb.co/mHC5Gc0/screencapture-localhost-3000-2022-03-22-16-21-28.png",
+    img: "./img/react-movies.png",
     link: "https://ramymansy.github.io/react-movies/",
   },
   {
