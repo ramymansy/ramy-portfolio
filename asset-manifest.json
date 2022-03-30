@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ramy-portfolio/static/css/main.78d7c6d0.css",
-    "main.js": "/ramy-portfolio/static/js/main.3873c342.js",
+    "main.css": "/ramy-portfolio/static/css/main.52c8b993.css",
+    "main.js": "/ramy-portfolio/static/js/main.10bab913.js",
     "static/media/Untitled-2.png": "/ramy-portfolio/static/media/Untitled-2.946bc5ce772517988b2a.png",
     "index.html": "/ramy-portfolio/index.html",
-    "main.78d7c6d0.css.map": "/ramy-portfolio/static/css/main.78d7c6d0.css.map",
-    "main.3873c342.js.map": "/ramy-portfolio/static/js/main.3873c342.js.map"
+    "main.52c8b993.css.map": "/ramy-portfolio/static/css/main.52c8b993.css.map",
+    "main.10bab913.js.map": "/ramy-portfolio/static/js/main.10bab913.js.map"
   },
   "entrypoints": [
-    "static/css/main.78d7c6d0.css",
-    "static/js/main.3873c342.js"
+    "static/css/main.52c8b993.css",
+    "static/js/main.10bab913.js"
   ]
 }
