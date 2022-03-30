@@ -166,10 +166,10 @@ button {
     flex-direction: column;
     padding: 0 1rem;
   }
-  .c-whatsapp,
-  .c-mail {
-    padding: 0.5rem 1rem;
-    margin: 1rem auto;
+  .c-info {
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
   }
   .c-title {
     width: 100%;
@@ -207,11 +207,10 @@ button {
     font-size: 30px !important;
     margin: 10px;
   }
-
   .c-desc {
-    display: none;
+    margin-bottom: 1rem;
+    text-align: center;
   }
-
   form {
     margin-top: 1rem;
     display: flex;
