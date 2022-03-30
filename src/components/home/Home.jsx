@@ -23,7 +23,13 @@ const Home = () => {
         <SiReact />
       </div>
       <div className="cube">
+        <SiNextdotjs />
+      </div>
+      <div className="cube">
         <SiJavascript />
+      </div>
+      <div className="cube">
+        <SiMaterialui />
       </div>
       <div className="cube">
         <SiHtml5 />
@@ -33,12 +39,6 @@ const Home = () => {
       </div>
       <div className="cube">
         <SiBootstrap />
-      </div>
-      <div className="cube">
-        <SiMaterialui />
-      </div>
-      <div className="cube">
-        <SiNextdotjs />
       </div>
       <div className="cube">
         <SiSass />
@@ -85,11 +85,7 @@ const Home = () => {
           </div>
         </div>
         <div className="h-desc">
-          <p>
-            Here You Will Find What Is You looking For
-            <br />
-            success, Development Business And Increase Profits.
-          </p>
+          <p>Here You Will Find What Is You looking For.</p>
         </div>
       </div>
     </div>

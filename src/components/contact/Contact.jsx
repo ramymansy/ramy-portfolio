@@ -2,13 +2,7 @@ import "./contact.css";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { FaWhatsapp } from "react-icons/fa";
-import {
-  AiOutlineMail,
-  AiFillTwitterCircle,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { BsFacebook, BsGithub } from "react-icons/bs";
-import { SiYoutubemusic } from "react-icons/si";
+import { AiOutlineMail } from "react-icons/ai";
 
 const Contact = () => {
   const formRef = useRef();
@@ -45,8 +39,6 @@ const Contact = () => {
             </h1>
             <p className="c-desc">
               <b>
-                Get in <span>touch</span>
-                <br />
                 What’s your <span>story</span>?
               </b>
               <br />
@@ -54,6 +46,9 @@ const Contact = () => {
               along me.
             </p>
             <div className="c-info">
+              <p className="touch">
+                Get in <span className="touchSpan">touch</span>.
+              </p>
               <button className="c-whatsapp">
                 <FaWhatsapp className="c-icon" />
                 <a
@@ -64,17 +59,6 @@ const Contact = () => {
                   WhatsApp Chat
                 </a>
               </button>
-              <button className="c-mail">
-                <AiOutlineMail className="c-icon" />
-                <a href="mailto:codna.dev@outlook.com">Send Mail</a>
-              </button>
-            </div>
-            <div className="c-social">
-              <BsFacebook className="facebook" />
-              <AiFillTwitterCircle className="twitter" />
-              <SiYoutubemusic className="youtube" />
-              <AiFillInstagram className="instagram" />
-              <BsGithub className="github" />
             </div>
           </div>
           <div className="c-right">
@@ -93,7 +77,10 @@ const Contact = () => {
                 required
               />
               <textarea rows="5" placeholder="Message . . ." name="message" />
-              <button type="submit">Send Message</button>
+              <button type="submit">
+                <AiOutlineMail className="c-icon" />
+                Send Message
+              </button>
               {done && <p className="thanks">Successfully Sent</p>}
             </form>
           </div>

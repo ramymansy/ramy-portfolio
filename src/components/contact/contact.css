@@ -44,15 +44,29 @@
   color: #fff;
   font-size: 1.2rem;
 }
-.c-whatsapp,
-.c-mail {
+.c-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-top: 9rem;
+}
+.c-info .touch {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.c-info .touch .touchSpan {
+  color: #feb800;
+}
+.c-whatsapp {
   background-color: #feb800;
   width: fit-content;
   padding: 0.5rem 1rem;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: flex-start;
-  margin-top: 1rem;
   color: #222;
   font-weight: 500;
   font-size: 1.1rem;
@@ -62,110 +76,11 @@
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
 }
-.c-mail {
-  margin-bottom: 4rem;
-}
 .c-icon {
   width: 25px;
   height: 25px;
   margin-right: 20px;
   color: #222;
-}
-.c-social {
-  width: 100%;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
-}
-.facebook {
-  color: #fff;
-  font-size: 30px !important;
-  margin-right: 30px;
-  cursor: pointer;
-  transition: all 0.5s ease !important;
-  -webkit-transition: all 0.5s ease !important;
-  -moz-transition: all 0.5s ease !important;
-  -ms-transition: all 0.5s ease !important;
-  -o-transition: all 0.5s ease !important;
-}
-.facebook:hover {
-  transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  -o-transform: scale(1.5);
-}
-.twitter {
-  color: #fff;
-  font-size: 30px !important;
-  margin-right: 30px;
-  cursor: pointer;
-  transition: all 0.5s ease !important;
-  -webkit-transition: all 0.5s ease !important;
-  -moz-transition: all 0.5s ease !important;
-  -ms-transition: all 0.5s ease !important;
-  -o-transition: all 0.5s ease !important;
-}
-.twitter:hover {
-  transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  -o-transform: scale(1.5);
-}
-.youtube {
-  color: #fff;
-  font-size: 30px !important;
-  margin-right: 30px;
-  cursor: pointer;
-  transition: all 0.5s ease !important;
-  -webkit-transition: all 0.5s ease !important;
-  -moz-transition: all 0.5s ease !important;
-  -ms-transition: all 0.5s ease !important;
-  -o-transition: all 0.5s ease !important;
-}
-.youtube:hover {
-  transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  -o-transform: scale(1.5);
-}
-.instagram {
-  color: #fff;
-  font-size: 30px !important;
-  margin-right: 30px;
-  cursor: pointer;
-  transition: all 0.5s ease !important;
-  -webkit-transition: all 0.5s ease !important;
-  -moz-transition: all 0.5s ease !important;
-  -ms-transition: all 0.5s ease !important;
-  -o-transition: all 0.5s ease !important;
-}
-.instagram:hover {
-  transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  -o-transform: scale(1.5);
-}
-.github {
-  color: #fff;
-  font-size: 30px !important;
-  margin-right: 30px;
-  cursor: pointer;
-  transition: all 0.5s ease !important;
-  -webkit-transition: all 0.5s ease !important;
-  -moz-transition: all 0.5s ease !important;
-  -ms-transition: all 0.5s ease !important;
-  -o-transition: all 0.5s ease !important;
-}
-.github:hover {
-  transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  -o-transform: scale(1.5);
 }
 .c-right {
   flex: 1;
@@ -207,12 +122,15 @@ textarea::placeholder {
 }
 
 button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   border: none;
   padding: 0.5rem 1rem;
   background-color: #feb800;
   color: #222;
-  font-size: 1.2rem;
-  font-weight: 400;
+  font-size: 1.1rem;
+  font-weight: 500;
   cursor: pointer;
   border: 1px solid #feb800;
   border-radius: 2rem;
@@ -314,6 +232,8 @@ button {
   button {
     width: 100%;
     margin: 10px auto;
+    align-items: center;
+    justify-content: center;
   }
   .thanks {
     margin-top: 5px;

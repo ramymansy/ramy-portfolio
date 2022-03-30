@@ -12,7 +12,7 @@ const Navbar = () => {
         <span>|</span>
         <li>
           <a className="about" href="#about">
-            About
+            Skills
           </a>
         </li>
         <span>|</span>

@@ -32,13 +32,12 @@ const About = () => {
         </div>
       </div>
       <div className="a-right">
-        <h1 className="a-about-title">About Me</h1>
+        <h2 className="a-skills-title">Skills</h2>
         <p className="a-about-content">
           I have Many Development Web Skills Experience,
           <br />
-          Made Me Able To Develop a Web, App From Start To End.
+          Made Me Able To Develop a Web From Start To End.
         </p>
-        <h2 className="a-skills-title">Skills</h2>
         <div className="a-skills-list">
           <ul>
             <li>
