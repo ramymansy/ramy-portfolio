@@ -2,6 +2,111 @@
   height: 100vh;
   position: relative;
   background-color: #005aba;
+  overflow: hidden;
+}
+.cube {
+  z-index: 1;
+  position: absolute;
+  top: 50vh;
+  left: 70vw;
+  width: 10px;
+  height: 10px;
+  color: #fff;
+  transform-origin: center center;
+  transform: scale(0) rotate(0deg) translate(-50%, -50%);
+  animation: cube 12s ease-in forwards infinite;
+  -webkit-animation: cube 12s ease-in forwards infinite;
+  -webkit-transform: scale(0) rotate(0deg) translate(-50%, -50%);
+  -moz-transform: scale(0) rotate(0deg) translate(-50%, -50%);
+  -ms-transform: scale(0) rotate(0deg) translate(-50%, -50%);
+  -o-transform: scale(0) rotate(0deg) translate(-50%, -50%);
+}
+.cube:nth-child(2) {
+  animation-delay: 1s;
+  left: 30vw;
+  top: 50vh;
+}
+.cube:nth-child(3) {
+  animation-delay: 3s;
+  left: 10vw;
+  top: 50vh;
+}
+
+.cube:nth-child(4) {
+  animation-delay: 3s;
+  left: 90vw;
+  top: 50vh;
+}
+
+.cube:nth-child(5) {
+  animation-delay: 5s;
+  left: 90vw;
+  top: 90vh;
+}
+
+.cube:nth-child(6) {
+  animation-delay: 5s;
+  left: 10vw;
+  top: 20vh;
+}
+.cube:nth-child(7) {
+  animation-delay: 7s;
+  left: 30vw;
+  top: 20vh;
+}
+.cube:nth-child(8) {
+  animation-delay: 7s;
+  left: 50vw;
+  top: 20vh;
+}
+.cube:nth-child(9) {
+  animation-delay: 9s;
+  left: 70vw;
+  top: 20vh;
+}
+.cube:nth-child(10) {
+  animation-delay: 9s;
+  left: 90vw;
+  top: 20vh;
+}
+.cube:nth-child(11) {
+  animation-delay: 11s;
+  left: 10vw;
+  top: 90vh;
+}
+.cube:nth-child(12) {
+  animation-delay: 11s;
+  left: 30vw;
+  top: 90vh;
+}
+.cube:nth-child(13) {
+  animation-delay: 13s;
+  left: 50vw;
+  top: 90vh;
+}
+.cube:nth-child(14) {
+  animation-delay: 13s;
+  left: 70vw;
+  top: 90vh;
+}
+
+@keyframes cube {
+  from {
+    transform: scale(0) translate(-50%, -50%);
+    opacity: 0.2;
+    -webkit-transform: scale(0) translate(-50%, -50%);
+    -moz-transform: scale(0) translate(-50%, -50%);
+    -ms-transform: scale(0) translate(-50%, -50%);
+    -o-transform: scale(0) translate(-50%, -50%);
+  }
+  to {
+    transform: scale(15) translate(-50%, -50%);
+    opacity: 0;
+    -webkit-transform: scale(15) translate(-50%, -50%);
+    -moz-transform: scale(15) translate(-50%, -50%);
+    -ms-transform: scale(15) translate(-50%, -50%);
+    -o-transform: scale(15) translate(-50%, -50%);
+  }
 }
 .h-wraper {
   width: 100%;
@@ -13,24 +118,29 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  z-index: 2;
 }
 .h-intro {
   font-size: 25px;
   font-weight: 200;
   color: #fff;
+  z-index: 2;
 }
 .h-name {
   font-size: 60px;
   color: #fff;
+  z-index: 2;
 }
 .h-title {
   height: 50px;
   overflow: hidden;
+  z-index: 2;
 }
 .h-title-wrapper {
   height: 100%;
   animation: move 15s ease infinite alternate;
   -webkit-animation: move 15s ease infinite alternate;
+  z-index: 2;
 }
 @keyframes move {
   25% {
@@ -71,6 +181,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 2;
 }
 .h-desc {
   width: 100%;
@@ -81,17 +192,20 @@
   text-transform: capitalize;
   padding: 0.5rem 1rem;
   text-align: center;
+  z-index: 2;
 }
 .avilable-container {
   width: 100%;
   display: flex;
   justify-content: flex-end;
   padding: 80px 20px;
+  z-index: 2;
 }
 .avilable {
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 2;
 }
 .avilable .hire {
   background-color: #feb800;

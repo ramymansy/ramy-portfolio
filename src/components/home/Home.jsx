@@ -1,8 +1,66 @@
 import "./home.css";
+import {
+  SiJavascript,
+  SiReact,
+  SiNextdotjs,
+  SiHtml5,
+  SiCss3,
+  SiSass,
+  SiBootstrap,
+  SiTailwindcss,
+  SiMaterialui,
+  SiGithub,
+  SiFigma,
+  SiAdobexd,
+  SiAdobephotoshop,
+  SiAdobeillustrator,
+} from "react-icons/si";
 
 const Home = () => {
   return (
     <div className="h" id="home">
+      <div className="cube">
+        <SiReact />
+      </div>
+      <div className="cube">
+        <SiJavascript />
+      </div>
+      <div className="cube">
+        <SiHtml5 />
+      </div>
+      <div className="cube">
+        <SiCss3 />
+      </div>
+      <div className="cube">
+        <SiBootstrap />
+      </div>
+      <div className="cube">
+        <SiMaterialui />
+      </div>
+      <div className="cube">
+        <SiNextdotjs />
+      </div>
+      <div className="cube">
+        <SiSass />
+      </div>
+      <div className="cube">
+        <SiTailwindcss />
+      </div>
+      <div className="cube">
+        <SiGithub />
+      </div>
+      <div className="cube">
+        <SiFigma />
+      </div>
+      <div className="cube">
+        <SiAdobexd />
+      </div>
+      <div className="cube">
+        <SiAdobephotoshop />
+      </div>
+      <div className="cube">
+        <SiAdobeillustrator />
+      </div>
       <div className="avilable-container">
         <div className="avilable">
           <p className="hire">Hire</p>
