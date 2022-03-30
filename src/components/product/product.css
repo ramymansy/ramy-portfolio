@@ -5,6 +5,7 @@
   border: 1px solid #005aba;
   border-radius: 10px 10px 0px 0px;
   overflow: hidden;
+  z-index: 1;
 }
 
 .p-browser {
@@ -16,6 +17,7 @@
   justify-content: flex-end;
   position: sticky;
   padding-right: 10px;
+  z-index: 1;
 }
 
 .p-circle {
