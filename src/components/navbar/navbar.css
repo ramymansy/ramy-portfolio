@@ -5,7 +5,7 @@
   z-index: 3;
   top: 0;
   left: 0;
-  background-color: #fff;
+  background-color: #005aba;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,7 +21,7 @@
   color: #feb800;
 }
 .navbar ul li {
-  color: #005aba;
+  color: #fff;
   font-weight: bold;
   font-size: 16px;
   padding: 1rem;

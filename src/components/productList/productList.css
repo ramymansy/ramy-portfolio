@@ -37,7 +37,7 @@
 @media screen and (max-width: 940px) {
   .pl {
     height: 100%;
-    padding: 5rem 1rem;
+    padding: 5rem 1rem 1rem 1rem;
   }
 
   .pl-texts {

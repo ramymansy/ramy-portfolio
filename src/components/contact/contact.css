@@ -3,12 +3,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #005aba;
 }
 .container {
   width: 80%;
   height: 80%;
-  background-color: #005aba;
   margin-top: 50px;
+  background-color: #222;
 }
 
 .c-wrapper {
@@ -20,10 +21,11 @@
 
 .c-left {
   flex: 1;
+  width: 100%;
 }
 
 .c-title {
-  font-size: 50px;
+  font-size: 45px;
   width: 100%;
   color: #fff;
   margin-bottom: 2rem;
@@ -32,7 +34,7 @@
   color: #feb800;
 }
 .c-desc {
-  font-weight: 300;
+  font-weight: 400;
   width: 90%;
   color: #fff;
   margin-bottom: 2rem;
@@ -65,11 +67,12 @@
   width: fit-content;
   padding: 0.5rem 1rem;
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   color: #222;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 1.1rem;
+  border: none;
   border-radius: 2rem;
   -webkit-border-radius: 2rem;
   -moz-border-radius: 2rem;
@@ -77,13 +80,13 @@
   -o-border-radius: 2rem;
 }
 .c-icon {
-  width: 25px;
-  height: 25px;
-  margin-right: 20px;
+  font-size: 24px;
+  margin-right: 10px;
   color: #222;
 }
 .c-right {
   flex: 1;
+  width: 100%;
 }
 input {
   width: 60%;
@@ -93,8 +96,8 @@ input {
   color: #fff;
   margin: 10px 30px 10px 0px;
   font-size: 16px;
-  font-weight: 300;
-  border-bottom: 2px solid #feb800;
+  font-weight: 500;
+  border-bottom: 1px solid #feb800;
   outline: none;
 }
 input::placeholder {
@@ -106,10 +109,10 @@ textarea {
   height: 200px;
   margin: 20px 0px;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 500;
   padding: 10px;
   background-color: transparent;
-  border: 2px solid #feb800;
+  border: 1px solid #feb800;
   color: #fff;
   outline: none;
 }
@@ -126,9 +129,9 @@ button {
   background-color: #feb800;
   color: #222;
   font-size: 1.1rem;
-  font-weight: 500;
+  font-weight: bold;
   cursor: pointer;
-  border: 1px solid #feb800;
+  border: none;
   border-radius: 2rem;
   -webkit-border-radius: 2rem;
   -moz-border-radius: 2rem;
@@ -150,19 +153,18 @@ button {
 }
 @media screen and (max-width: 992px) {
   .c {
-    padding: 1.5rem 0.5rem;
+    padding: 3rem 0.5rem 2rem 0.5rem;
   }
   .container {
     width: 100%;
-    height: 95%;
-    margin-top: 70px;
-    margin-bottom: 0.5rem;
+    height: 100%;
   }
   .c-wrapper {
     flex-direction: column;
     padding: 0 1rem;
   }
   .c-info {
+    text-align: center;
     align-items: center;
     justify-content: center;
     margin-top: 1rem;
@@ -174,7 +176,8 @@ button {
     text-align: center;
   }
   .c-desc {
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    margin: auto;
     text-align: center;
   }
   form {
@@ -185,7 +188,7 @@ button {
   }
   input {
     width: 100%;
-    height: 40px;
+    height: 30px;
     margin: 10px auto;
   }
   textarea {
@@ -194,7 +197,6 @@ button {
   }
 
   button {
-    width: 100%;
     margin: 10px auto;
     align-items: center;
     justify-content: center;
