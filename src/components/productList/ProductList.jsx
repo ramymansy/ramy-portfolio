@@ -6,11 +6,12 @@ const ProductList = () => {
   return (
     <div className="pl" id="works">
       <div className="pl-texts">
-        <h1 className="pl-title">Creative & inspire ...</h1>
+        <h1 className="pl-title">See My Works Which Will Amaze You!</h1>
         <p className="pl-desc">
-          Here you will find creative Websites, Beautiful Landingpages, stunning
-          styles that your work has been waiting for & a whole lot more awaits
-          inside.
+          I develop the best quality website that serves for the long-term.
+          <br />
+          Well-documented, clean, easy and elegant interface helps any
+          non-technical clients.
         </p>
       </div>
       <div className="pl-list">

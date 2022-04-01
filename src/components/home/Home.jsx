@@ -63,7 +63,7 @@ const Home = () => {
       </div>
       <div className="avilable-container">
         <div className="avilable">
-          <p className="hire">Hire</p>
+          <p className="hire">Hire Status</p>
           <div className="avStatus">
             <div className="status"></div>
             <p className="avi">Available</p>

@@ -32,12 +32,26 @@ const About = () => {
         </div>
       </div>
       <div className="a-right">
-        <h2 className="a-skills-title">Skills</h2>
-        <p className="a-about-content">
-          I have Many Development Web Skills Experience,
-          <br />
-          Made Me Able To Develop a Web From Start To End.
-        </p>
+        <div className="about">
+          <h2 className="a-about-title">About me</h2>
+          <p className="a-about-content">
+            I’m a developer who has a passion for building clean web
+            applications with intuitive functionality. I enjoy the process of
+            turning ideas into reality using creative solutions. I’m always
+            curious about learning new skills, tools, and concepts. In addition
+            to working on various solo front-end projects, I have worked with
+            creative teams, which involves daily stand-ups and communications,
+            source control, and project management.
+          </p>
+        </div>
+        <div className="skills">
+          <h2 className="a-skills-title">Skills</h2>
+          <p className="a-skills-content">
+            I develop a simple, intuitive, and responsive user interface that
+            helps users get things done with less effort and time with those
+            technologies.
+          </p>
+        </div>
         <div className="a-skills-list">
           <ul>
             <li>
@@ -74,7 +88,7 @@ const About = () => {
             </li>
             <li>
               <SiSass className="logo" />
-              Saas
+              SASS
             </li>
             <li>
               <SiBootstrap className="logo" />

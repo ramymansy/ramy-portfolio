@@ -1,11 +1,15 @@
 .p {
-  width: 30%;
-  height: 40vh;
+  width: 18%;
+  height: 25vh;
   margin: 20px 10px;
   border: 1px solid #005aba;
-  border-radius: 10px 10px 0px 0px;
   overflow: hidden;
   z-index: 1;
+  border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -ms-border-radius: 10px 10px 0px 0px;
+  -o-border-radius: 10px 10px 0px 0px;
 }
 
 .p-browser {

@@ -22,14 +22,27 @@
 }
 .navbar ul li {
   color: #005aba;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 16px;
-  margin: 0.5rem 1rem;
+  padding: 1rem;
   text-transform: uppercase;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+}
+.navbar ul li:hover {
+  color: #feb800;
+  transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
 }
 @media screen and (max-width: 940px) {
   .navbar ul li {
-    margin-right: 0.5rem;
-    margin-left: 0.5rem;
+    font-size: 16px;
+    padding: 0.75rem;
   }
 }

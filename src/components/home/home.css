@@ -260,23 +260,24 @@
   }
 }
 @media screen and (max-width: 940px) {
-  .navbar ul li {
-    padding: 0;
-    margin-right: 1rem;
-    margin-left: 1rem;
+  .cube {
+    display: none;
+  }
+  .h-wraper {
+    height: 43%;
   }
   .h-intro {
     font-size: 22px;
   }
-  .h-wraper {
-    height: 60%;
-    top: 20%;
+  .h-title {
+    height: 60px;
   }
   .h-title-wrapper {
-    padding: 0.5rem;
+    padding: 0.25rem;
   }
   .h-desc {
     font-size: 18px;
+    line-height: 1.6;
   }
   .h-title-item {
     height: 50px;
