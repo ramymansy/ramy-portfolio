@@ -49,5 +49,40 @@ export const products = [
     img: "https://i.ibb.co/XXDP4xP/fylo.jpg",
     link: "https://ramymansy.github.io/fylo/",
   },
+  {
+    id: 11,
+    img: "https://i.ibb.co/jh2jFp7/screencapture-greenfoods.png",
+    link: "https://ramymansy.github.io/Green-Foods/",
+  },
+  {
+    id: 12,
+    img: "https://i.ibb.co/J2JMHtC/screencapture-cocacola.png",
+    link: "https://ramymansy.github.io/cocacola/",
+  },
+  {
+    id: 13,
+    img: "https://i.ibb.co/7JH0HX1/screencapture-fitness.png",
+    link: "https://ramymansy.github.io/Fitness-Gym/",
+  },
+  {
+    id: 14,
+    img: "https://i.ibb.co/XzbLqPg/screencapture-food.png",
+    link: "https://ramymansy.github.io/food/",
+  },
+  {
+    id: 15,
+    img: "https://i.ibb.co/FnmpW9K/screencapture-Products.png",
+    link: "https://ramymansy.github.io/products/",
+  },
+  {
+    id: 16,
+    img: "https://i.ibb.co/3swCbQY/screencapture-Fruits.png",
+    link: "https://ramymansy.github.io/Fruits/",
+  },
+  {
+    id: 17,
+    img: "https://i.ibb.co/LYdfVmt/screencapture-Suzuki.png",
+    link: "https://ramymansy.github.io/Suzuki/",
+  },
 ];
 
