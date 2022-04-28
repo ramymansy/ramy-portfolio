@@ -20,12 +20,6 @@ const Home = () => {
   return (
     <div className="h" id="home">
       <div className="cube">
-        <SiReact />
-      </div>
-      <div className="cube">
-        <SiNextdotjs />
-      </div>
-      <div className="cube">
         <SiJavascript />
       </div>
       <div className="cube">
@@ -42,6 +36,12 @@ const Home = () => {
       </div>
       <div className="cube">
         <SiSass />
+      </div>
+      <div className="cube">
+        <SiReact />
+      </div>
+      <div className="cube">
+        <SiNextdotjs />
       </div>
       <div className="cube">
         <SiTailwindcss />

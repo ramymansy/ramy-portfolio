@@ -35,21 +35,23 @@ const About = () => {
         <div className="about">
           <h2 className="a-about-title">About me</h2>
           <p className="a-about-content">
-            I’m a developer who has a passion for building clean web
-            applications with intuitive functionality. I enjoy the process of
-            turning ideas into reality using creative solutions. I’m always
-            curious about learning new skills, tools, and concepts. In addition
-            to working on various solo front-end projects, I have worked with
-            creative teams, which involves daily stand-ups and communications,
-            source control, and project management.
+            I’m a Developer who has a Passion for Building Clean Web-apps with
+            Intuitive Functionality, Enjoy the Process of Turning Ideas into
+            Reality using Creative Solutions.
+            <br />
+            I’m Always Curious about Learning New Skills, Tools, and Concepts.
+            <br />
+            In Addition to Working on Various Solo Front-End Projects, I have
+            Worked with Creative Teams, Which Involves Daily Stand-ups and
+            Communications, Source Control, and Project Management.
           </p>
         </div>
         <div className="skills">
           <h2 className="a-skills-title">Skills</h2>
           <p className="a-skills-content">
-            I develop a simple, intuitive, and responsive user interface that
-            helps users get things done with less effort and time with those
-            technologies.
+            I Develop a Simple, Intuitive, and Responsive user Interface that
+            Helps Users get Things Done with Less Effort and Time with those
+            Technologies.
           </p>
         </div>
         <div className="a-skills-list">

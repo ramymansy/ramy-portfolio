@@ -39,7 +39,8 @@
 .a-about-content,
 .a-skills-content {
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
   color: #005aba;
 }
 .a-skills-list ul {
