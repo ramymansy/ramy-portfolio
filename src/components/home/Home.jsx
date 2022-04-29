@@ -15,6 +15,7 @@ import {
   SiAdobephotoshop,
   SiAdobeillustrator,
 } from "react-icons/si";
+import Robot from "../../img/robot.png";
 
 const Home = () => {
   return (
@@ -85,8 +86,11 @@ const Home = () => {
           </div>
         </div>
         <div className="h-desc">
-          <p>Here You Will Find What Is You looking For.</p>
+          <p>With me, will find what are you looking for.</p>
         </div>
+      </div>
+      <div className="robotDiv">
+        <img src={Robot} alt="robot" />
       </div>
     </div>
   );

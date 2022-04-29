@@ -3,6 +3,7 @@ import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { FaWhatsapp } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
+import Message from "../../img/message.png";
 
 const Contact = () => {
   const formRef = useRef();
@@ -62,6 +63,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="c-right">
+            <img src={Message} alt="message" className="messagePhoto" />
             <form ref={formRef} onSubmit={sendEmail}>
               <input type="text" placeholder="Name" name="user_name" required />
               <input

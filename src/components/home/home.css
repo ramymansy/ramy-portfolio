@@ -85,10 +85,15 @@
     -o-transform: translateY(150vh);
   }
 }
+.robotDiv {
+  position: absolute;
+  right: -350px;
+}
 .h-wraper {
   width: 100%;
   position: absolute;
   top: 25%;
+  left: -250px;
   height: 50%;
   padding: 50px;
   display: flex;
@@ -116,7 +121,7 @@
 .h-title-wrapper {
   height: 100%;
   animation: move 15s ease infinite alternate;
-  -webkit-animation: ;
+  -webkit-animation: move 15s ease infinite alternate;
   z-index: 2;
 }
 @keyframes move {
@@ -166,7 +171,6 @@
   line-height: 2;
   font-weight: 200;
   color: #fff;
-  text-transform: capitalize;
   padding: 0.5rem 1rem;
   text-align: center;
   z-index: 2;
@@ -242,6 +246,7 @@
   }
   .h-wraper {
     height: 43%;
+    left: 0;
   }
   .h-intro {
     font-size: 22px;
@@ -277,5 +282,12 @@
   }
   .avStatus .status {
     border: 1px solid #222;
+  }
+  .robotDiv {
+    bottom: 0;
+    right: -660px;
+  }
+  .robotDiv img {
+    width: 30%;
   }
 }

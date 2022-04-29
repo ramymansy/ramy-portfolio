@@ -19,6 +19,7 @@ a {
   background: linear-gradient(#222, #005aba);
 }
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(#222, #005aba);
+  background: linear-gradient(#222, #005aba, #222);
   border-radius: 6px;
+  border: 1px solid #fff;
 }
