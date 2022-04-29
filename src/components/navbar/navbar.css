@@ -5,12 +5,26 @@
   z-index: 3;
   top: 0;
   left: 0;
-  background-color: #005aba;
+  background: linear-gradient(45deg, #222, #005aba);
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0 10rem;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.ramy {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 30px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 .navbar ul {
   display: flex;
@@ -41,6 +55,9 @@
   -o-transform: scale(1.15);
 }
 @media screen and (max-width: 940px) {
+  .ramy {
+    display: none;
+  }
   .navbar ul li {
     font-size: 16px;
     padding: 0.75rem;

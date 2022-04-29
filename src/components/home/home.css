@@ -1,7 +1,8 @@
 .h {
   height: 100vh;
   position: relative;
-  background-color: #005aba;
+  background: linear-gradient(45deg, #005aba, #222);
+
   overflow: hidden;
 }
 .cube {
@@ -115,7 +116,7 @@
 .h-title-wrapper {
   height: 100%;
   animation: move 15s ease infinite alternate;
-  -webkit-animation: move 15s ease infinite alternate;
+  -webkit-animation: ;
   z-index: 2;
 }
 @keyframes move {

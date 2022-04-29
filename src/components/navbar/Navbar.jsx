@@ -1,8 +1,12 @@
 import "./navbar.css";
+import logo from "../../img/Untitled-1.png";
 
 const Navbar = () => {
   return (
     <div className="navbar">
+      <div>
+        <img src={logo} alt="logo" className="ramy" />
+      </div>
       <ul>
         <li>
           <a className="home" href="#home">
