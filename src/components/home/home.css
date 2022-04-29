@@ -7,94 +7,81 @@
 .cube {
   z-index: 1;
   position: absolute;
-  top: 30px;
-  left: 1%;
-  font-size: 0rem;
-  color: rgb(3, 55, 111);
-  animation: cube 10s linear infinite;
-  -webkit-animation: cube 10s linear infinite;
+  top: -12%;
+  left: 2%;
+  font-size: 3rem;
+  color: rgb(255, 255, 255, 0.5);
+  animation: cube 14s linear infinite;
+  -webkit-animation: cube 14s linear infinite;
 }
 .cube:nth-child(2) {
-  animation-delay: 5s;
-  left: 7%;
+  animation-delay: 1s;
+  /* top: -18%; */
 }
 .cube:nth-child(3) {
-  animation-delay: 9s;
-  left: 13%;
+  animation-delay: 2s;
+  /* top: -24%; */
 }
 .cube:nth-child(4) {
-  animation-delay: 12s;
-  left: 20%;
+  animation-delay: 3s;
+  /* top: -30%; */
 }
 
 .cube:nth-child(5) {
-  animation-delay: 5s;
-  left: 27%;
+  animation-delay: 4s;
+  /* top: -36%; */
 }
-
 .cube:nth-child(6) {
-  animation-delay: 10s;
-  left: 34%;
+  animation-delay: 5s;
+  /* top: -42%; */
 }
 .cube:nth-child(7) {
-  animation-delay: 7s;
-  left: 43%;
+  animation-delay: 6s;
+  /* top: -48%; */
 }
 .cube:nth-child(8) {
-  animation-delay: 3s;
-  left: 53%;
+  animation-delay: 7s;
+  /* top: -54%; */
 }
 .cube:nth-child(9) {
   animation-delay: 8s;
-  left: 60%;
+  /* top: -60%; */
 }
 .cube:nth-child(10) {
-  animation-delay: 12s;
-  left: 67%;
+  animation-delay: 9s;
+  /* top: -66%; */
 }
 .cube:nth-child(11) {
-  animation-delay: 6s;
-  left: 74%;
+  animation-delay: 10s;
+  /* top: -72%; */
 }
 .cube:nth-child(12) {
-  animation-delay: 10s;
-  left: 81%;
+  animation-delay: 11s;
+  /* top: -78%; */
 }
 .cube:nth-child(13) {
-  animation-delay: 1s;
-  left: 88%;
+  animation-delay: 12s;
+  /* top: -84%; */
 }
 .cube:nth-child(14) {
-  animation-delay: 7s;
-  left: 95%;
+  animation-delay: 13s;
+  /* top: -90%; */
 }
 
 @keyframes cube {
   0% {
-    opacity: 0;
     transform: translateY(0);
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
   }
-  40% {
-    opacity: 0.8;
-  }
-  50% {
-    opacity: 1;
-  }
-  80% {
-    opacity: 0;
-  }
   100% {
-    font-size: 8rem;
-    opacity: 0;
-    transform: translateY(100vh);
-    -webkit-transform: translateY(100vh);
-    -moz-transform: translateY(100vh);
-    -ms-transform: translateY(100vh);
-    -o-transform: translateY(100vh);
+    transform: translateY(150vh);
+    -webkit-transform: translateY(150vh);
+    -moz-transform: translateY(150vh);
+    -ms-transform: translateY(150vh);
+    -o-transform: translateY(150vh);
   }
 }
 .h-wraper {
