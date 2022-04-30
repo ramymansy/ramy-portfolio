@@ -86,7 +86,11 @@ const Home = () => {
           </div>
         </div>
         <div className="h-desc">
-          <p>With me, will find what are you looking for.</p>
+          <p>
+            With me you will know
+            <br />
+            the meaning of professionalism
+          </p>
         </div>
       </div>
       <div className="robotDiv">

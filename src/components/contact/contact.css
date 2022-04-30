@@ -31,6 +31,7 @@
   width: 10%;
   z-index: 1;
   margin-top: 10px;
+  pointer-events: none;
 }
 .c-title {
   font-size: 45px;

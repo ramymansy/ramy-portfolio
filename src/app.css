@@ -16,10 +16,13 @@ a {
 }
 ::-webkit-scrollbar {
   width: 15px;
-  background: linear-gradient(#222, #005aba);
+  background: linear-gradient(#005aba, #222);
 }
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(#222, #005aba, #222);
-  border-radius: 6px;
-  border: 1px solid #fff;
+  background: linear-gradient(transparent, #feb800);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }

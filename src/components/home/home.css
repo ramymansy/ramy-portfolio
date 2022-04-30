@@ -158,7 +158,7 @@
   height: 50px;
   letter-spacing: 3px;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 900;
   color: #feb800;
   display: flex;
   justify-content: center;
@@ -168,8 +168,7 @@
 .h-desc {
   width: 100%;
   font-size: 22px;
-  line-height: 2;
-  font-weight: 200;
+  font-weight: 600;
   color: #fff;
   padding: 0.5rem 1rem;
   text-align: center;
@@ -284,8 +283,8 @@
     border: 1px solid #222;
   }
   .robotDiv {
-    bottom: 0;
-    right: -660px;
+    bottom: -45px;
+    right: -680px;
   }
   .robotDiv img {
     width: 30%;
