@@ -1,7 +1,7 @@
 export const products = [
   {
     id: 1,
-    img: "https://i.ibb.co/NZTZ6W6/screencapture-ecommerce-market-sigma-vercel-app-2022-04-27-04-48-48.png",
+    img: "https://i.ibb.co/X8xGVdS/screencapture-ecommerce-market-sigma-vercel-app-2022-05-01-09-03-35.png",
     link: "https://ecommerce-market-sigma.vercel.app/",
   },
   {
