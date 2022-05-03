@@ -101,3 +101,70 @@ export const products = [
   },
 ];
 
+export const clients = [
+  {
+    id: 1,
+    img: "https://i.ibb.co/4KdGPC9/001.png",
+    quoteContent:
+      "Ramy provides amazing web development services, he's the most professional person I have ever worked with, I would recommend him to anyone looking to get a professionalism.",
+    quoteAuthor: "Terrell Grimes",
+    jobTitle: "Photographer",
+  },
+  {
+    id: 2,
+    img: "https://i.ibb.co/mcGxzYb/002.png",
+    quoteContent:
+      "He does an excellent job, always positive to find the most suitable solution, ramy is one of the professional web developers who provide great services.",
+    quoteAuthor: "Lonny Corry",
+    jobTitle: "Project Manager",
+  },
+  {
+    id: 3,
+    img: "https://i.ibb.co/VxWW37s/003.png",
+    quoteContent:
+      "Ramy is very professional, always delivers high-quality results, and is always there to help, Look forward to working with him on other projects.",
+    quoteAuthor: "Max Chole",
+    jobTitle: "CEO, Designer",
+  },
+  {
+    id: 4,
+    img: "https://i.ibb.co/c13RcKk/004.png",
+    quoteContent:
+      "Ramy worked on many projects for us and has always exceeded our expectations, he's dedicated and talented, and we delight to work with him always.",
+    quoteAuthor: "Amir Ennabi",
+    jobTitle: "Sales Manager",
+  },
+  {
+    id: 5,
+    img: "https://i.ibb.co/wKvKdc5/005.png",
+    quoteContent:
+      "I know I can count on his services if I need to get my project done quickly and with the best possible result, I always look forward to working with him!",
+    quoteAuthor: "Kenton Marquardt",
+    jobTitle: "Art Director",
+  },
+  {
+    id: 6,
+    img: "https://i.ibb.co/xjP6Cc4/006.png",
+    quoteContent:
+      "I was a real pleasure to work with and look forward to working with him again, he’s definitely the kind of developer you can trust with a project from start to finish.",
+    quoteAuthor: "Rayan Hammes",
+    jobTitle: "Motion Graphic Animator",
+  },
+  {
+    id: 7,
+    img: "https://i.ibb.co/ZN03hVJ/0010.png",
+    quoteContent:
+      "He's very professional, always delivers high-quality results, and is always there to help. Look forward to working with Ramy on other projects.",
+    quoteAuthor: "Keshaun Robel",
+    jobTitle: "CEO, Designer",
+  },
+  {
+    id: 8,
+    img: "https://i.ibb.co/cbRJSdr/0011.png",
+    quoteContent:
+      "Excellent developer to work with, Always positive to find the most appropriate solution. Ramy is one of the professional web development developers that provides awesome services.",
+    quoteAuthor: "Casper Paucek",
+    jobTitle: "Project Manager",
+  },
+];
+

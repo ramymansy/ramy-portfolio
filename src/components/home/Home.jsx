@@ -24,7 +24,10 @@ const Home = () => {
         <SiJavascript />
       </div>
       <div className="cube">
-        <SiMaterialui />
+        <SiReact />
+      </div>
+      <div className="cube">
+        <SiNextdotjs />
       </div>
       <div className="cube">
         <SiHtml5 />
@@ -39,13 +42,10 @@ const Home = () => {
         <SiSass />
       </div>
       <div className="cube">
-        <SiReact />
-      </div>
-      <div className="cube">
-        <SiNextdotjs />
-      </div>
-      <div className="cube">
         <SiTailwindcss />
+      </div>
+      <div className="cube">
+        <SiMaterialui />
       </div>
       <div className="cube">
         <SiGithub />
@@ -80,9 +80,9 @@ const Home = () => {
           <div className="h-title-wrapper">
             <div className="h-title-item">Fron-End Dev</div>
             <div className="h-title-item">JavaScript Dev</div>
-            <div className="h-title-item">React.js Developer</div>
-            <div className="h-title-item">Next.js Developer</div>
-            <div className="h-title-item">UI Developer</div>
+            <div className="h-title-item">React.js Dev</div>
+            <div className="h-title-item">Next.js Dev</div>
+            <div className="h-title-item">UI Dev</div>
           </div>
         </div>
         <div className="h-desc">

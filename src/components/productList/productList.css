@@ -2,11 +2,6 @@
   height: 100%;
   background: linear-gradient(45deg, #005aba, #222);
   padding: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
 }
 .pl-texts {
   text-align: center;
@@ -14,7 +9,7 @@
 
 .pl-title {
   margin-top: 50px;
-  font-size: 40px;
+  font-size: 24px;
   font-weight: 600;
   color: #feb800;
 }
