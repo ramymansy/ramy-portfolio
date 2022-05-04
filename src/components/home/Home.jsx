@@ -62,15 +62,10 @@ const Home = () => {
       <div className="cube">
         <SiAdobeillustrator />
       </div>
-      <div className="avilable-container">
-        <div className="avilable">
-          <p className="hire">Hire Status</p>
-          <div className="avStatus">
-            <div className="status"></div>
-            <p className="avi">Available</p>
-          </div>
-        </div>
-      </div>
+      <div className="tube1"></div>
+      <div className="tube2"></div>
+      <div className="tube3"></div>
+      <div className="tube4"></div>
       <div className="h-wraper">
         <h2 className="h-intro">Welcome To My Portfolio</h2>
         <h1 className="h-name">

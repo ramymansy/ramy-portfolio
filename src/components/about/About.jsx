@@ -57,83 +57,83 @@ const About = () => {
         <div className="a-skills-list">
           <ul>
             <li>
-              <SiJavascript className="logo" />
+              <SiJavascript className="skilllogo" />
               JavaScript
             </li>
             <li>
-              <SiReact className="logo" />
+              <SiReact className="skilllogo" />
               React
             </li>
             <li>
-              <SiNextdotjs className="logo" />
+              <SiNextdotjs className="skilllogo" />
               Next
             </li>
             <li>
-              <SiJquery className="logo" />
+              <SiJquery className="skilllogo" />
               jQuery
             </li>
             <li>
-              <SiNodedotjs className="logo" />
+              <SiNodedotjs className="skilllogo" />
               NodeJs
             </li>
             <li>
-              <SiTypescript className="logo" />
+              <SiTypescript className="skilllogo" />
               TypeScript
             </li>
             <li>
-              <SiHtml5 className="logo" />
+              <SiHtml5 className="skilllogo" />
               HTML
             </li>
             <li>
-              <SiCss3 className="logo" />
+              <SiCss3 className="skilllogo" />
               CSS
             </li>
             <li>
-              <SiSass className="logo" />
+              <SiSass className="skilllogo" />
               SASS
             </li>
             <li>
-              <SiBootstrap className="logo" />
+              <SiBootstrap className="skilllogo" />
               Bootstrap
             </li>
             <li>
-              <SiTailwindcss className="logo" />
+              <SiTailwindcss className="skilllogo" />
               Tailwind
             </li>
             <li>
-              <SiMaterialui className="logo" />
+              <SiMaterialui className="skilllogo" />
               Material-UI
             </li>
             <li>
-              <SiStyledcomponents className="logo styled" />
+              <SiStyledcomponents className="skilllogo styled" />
               Styled-Components
             </li>
             <li>
-              <SiGit className="logo" />
+              <SiGit className="skilllogo" />
               Git
             </li>
             <li>
-              <SiGithub className="logo" />
+              <SiGithub className="skilllogo" />
               Github
             </li>
             <li>
-              <SiFigma className="logo" />
+              <SiFigma className="skilllogo" />
               Figma
             </li>
             <li>
-              <SiAdobexd className="logo" />
+              <SiAdobexd className="skilllogo" />
               Adobe XD
             </li>
             <li>
-              <SiAdobephotoshop className="logo" />
+              <SiAdobephotoshop className="skilllogo" />
               Photoshop
             </li>
             <li>
-              <SiAdobeillustrator className="logo" />
+              <SiAdobeillustrator className="skilllogo" />
               Illustrator
             </li>
             <li>
-              <SiAdobeindesign className="logo" />
+              <SiAdobeindesign className="skilllogo" />
               Indesign
             </li>
           </ul>

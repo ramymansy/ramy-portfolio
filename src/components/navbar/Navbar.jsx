@@ -9,47 +9,56 @@ import { TiMessages } from "react-icons/ti";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <div>
-        <img src={logo} alt="logo" className="ramy" />
+      <div className="logo-container">
+        <img src={logo} alt="logo" className="logo" />
       </div>
       <nav className="navigation">
         <ul>
           <li>
-            <a className="home" href="#home">
-              <AiFillHome className="icons homeIcon" />
+            <a className="homei" href="#home">
+              <AiFillHome className="icons" />
               <p>Home</p>
             </a>
           </li>
-          <span>.</span>
+          <span>|</span>
           <li>
-            <a className="about" href="#about">
-              <SiAboutdotme className="icons aboutIcon" />
+            <a className="abouti" href="#about">
+              <SiAboutdotme className="icons" />
               <p>About</p>
             </a>
           </li>
-          <span>.</span>
+          <span>|</span>
           <li>
-            <a className="clients" href="#clients">
-              <FaUsers className="icons clientsIcon" />
-              <p>Clients</p>
+            <a className="clientsi" href="#clients">
+              <FaUsers className="icons" />
+              <p>Testimonials</p>
             </a>
           </li>
-          <span>.</span>
+          <span>|</span>
           <li>
-            <a className="projects" href="#works">
-              <FiMonitor className="icons portfolioIcon" />
+            <a className="projectsi" href="#works">
+              <FiMonitor className="icons" />
               <p>Protfolio</p>
             </a>
           </li>
-          <span>.</span>
+          <span>|</span>
           <li>
-            <a className="contact" href="#contact">
-              <TiMessages className="icons contactIcon" />
+            <a className="contacti" href="#contact">
+              <TiMessages className="icons" />
               <p>Contact</p>
             </a>
           </li>
         </ul>
       </nav>
+      <div className="avilable-container">
+        <div className="avilable">
+          <p className="hire">Hire</p>
+          <div className="avStatus">
+            <div className="status"></div>
+            <p className="avi">Available</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

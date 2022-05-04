@@ -4,7 +4,7 @@
   align-items: center;
   position: relative;
   height: 100vh;
-  padding: 0 2rem;
+  padding: 5rem 2rem 0;
 }
 .a-left {
   flex: 1;
@@ -28,7 +28,21 @@
 }
 .skills,
 .about {
-  padding: 10px 0;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.5px);
+  -webkit-backdrop-filter: blur(9.5px);
+  padding: 10px 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-top: 1px solid #feb800;
+  border-left: 1px solid #feb800;
+}
+.about {
+  margin-bottom: 10px;
 }
 .a-about-title,
 .a-skills-title {
@@ -50,9 +64,13 @@
   flex-wrap: wrap;
 }
 .a-skills-list li {
-  background-color: transparent;
+  cursor: default;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.5px);
+  -webkit-backdrop-filter: blur(9.5px);
   color: #fff;
-  border: 1.5px solid #fff;
+  border: 1px solid #feb800;
   font-size: 1rem;
   font-weight: 500;
   margin: 0.5rem 0.5rem;
@@ -66,7 +84,7 @@
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
 }
-.logo {
+.skilllogo {
   color: #feb800;
   font-size: 1.2rem;
   margin-right: 0.5rem;

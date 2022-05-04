@@ -2,7 +2,6 @@
   height: 100vh;
   position: relative;
   background: linear-gradient(45deg, #005aba, #222);
-
   overflow: hidden;
 }
 .cube {
@@ -17,56 +16,42 @@
 }
 .cube:nth-child(2) {
   animation-delay: 1s;
-  /* top: -18%; */
 }
 .cube:nth-child(3) {
   animation-delay: 2s;
-  /* top: -24%; */
 }
 .cube:nth-child(4) {
   animation-delay: 3s;
-  /* top: -30%; */
 }
-
 .cube:nth-child(5) {
   animation-delay: 4s;
-  /* top: -36%; */
 }
 .cube:nth-child(6) {
   animation-delay: 5s;
-  /* top: -42%; */
 }
 .cube:nth-child(7) {
   animation-delay: 6s;
-  /* top: -48%; */
 }
 .cube:nth-child(8) {
   animation-delay: 7s;
-  /* top: -54%; */
 }
 .cube:nth-child(9) {
   animation-delay: 8s;
-  /* top: -60%; */
 }
 .cube:nth-child(10) {
   animation-delay: 9s;
-  /* top: -66%; */
 }
 .cube:nth-child(11) {
   animation-delay: 10s;
-  /* top: -72%; */
 }
 .cube:nth-child(12) {
   animation-delay: 11s;
-  /* top: -78%; */
 }
 .cube:nth-child(13) {
   animation-delay: 12s;
-  /* top: -84%; */
 }
 .cube:nth-child(14) {
   animation-delay: 13s;
-  /* top: -90%; */
 }
 
 @keyframes cube {
@@ -87,13 +72,50 @@
 }
 .robotDiv {
   position: absolute;
-  right: -350px;
+  top: 150px;
+  right: 100px;
+  height: 85%;
+}
+.robotDiv img {
+  height: 80%;
+}
+.tube1 {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  border: 3px solid #feb800;
+}
+.tube2 {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  bottom: 200px;
+  right: 600px;
+  border: 3px solid #feb800;
+}
+.tube3 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 100px;
+  right: 500px;
+  border: 3px solid #fff;
+}
+.tube4 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  border: 3px solid #fff;
 }
 .h-wraper {
   width: 100%;
   position: absolute;
   top: 25%;
-  left: -250px;
+  left: -100px;
   height: 50%;
   padding: 50px;
   display: flex;
@@ -174,73 +196,14 @@
   text-align: center;
   z-index: 2;
 }
-.avilable-container {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  padding: 80px 20px;
-  z-index: 2;
-}
-.avilable {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 2;
-}
-.avilable .hire {
-  background-color: #feb800;
-  padding: 0.25rem 1rem;
-  border-radius: 2rem 0 0 2rem;
-  -webkit-border-radius: 2rem 0 0 2rem;
-  -moz-border-radius: 2rem 0 0 2rem;
-  -ms-border-radius: 2rem 0 0 2rem;
-  -o-border-radius: 2rem 0 0 2rem;
-  padding-right: 10px;
-  color: #222;
-  font-weight: 500;
-  margin-right: 0.2rem;
-}
-.avStatus {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #fff;
-  padding: 0.25rem 1rem;
-  border-radius: 0 2rem 2rem 0;
-  -webkit-border-radius: 0 2rem 2rem 0;
-  -moz-border-radius: 0 2rem 2rem 0;
-  -ms-border-radius: 0 2rem 2rem 0;
-  -o-border-radius: 0 2rem 2rem 0;
-}
-.avStatus .status {
-  width: 12px;
-  height: 12px;
-  background-color: greenyellow;
-  border: 1px solid #222;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  animation: show 0.75s ease-in-out infinite alternate;
-  -webkit-animation: show 0.75s ease-in-out infinite alternate;
-}
-.avilable .avi {
-  color: #222;
-  padding-left: 5px;
-  animation: show 0.75s ease-in-out infinite alternate;
-  -webkit-animation: show 0.75s ease-in-out infinite alternate;
-}
-@keyframes show {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 @media screen and (max-width: 940px) {
   .cube {
+    display: none;
+  }
+  .tube1,
+  .tube2,
+  .tube3,
+  .tube4 {
     display: none;
   }
   .h-wraper {
@@ -265,28 +228,11 @@
     letter-spacing: 0;
     font-size: 24px;
   }
-  .avilable-container {
-    align-items: center;
-    justify-content: center;
-    padding: 90px 0;
-  }
-  .avilable {
-    margin-top: -1rem;
-  }
-  .avStatus {
-    background-color: #fff;
-  }
-  .avilable .avi {
-    color: #222;
-  }
-  .avStatus .status {
-    border: 1px solid #222;
-  }
   .robotDiv {
-    bottom: -45px;
-    right: -680px;
+    top: 600px;
+    right: 30px;
   }
   .robotDiv img {
-    width: 30%;
+    height: 30%;
   }
 }
