@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import img from "../props/favicon.ico";
+import img from "../props/img6.png";
 import Buttons from "../button/button";
 import { BsMouse } from "react-icons/bs";
 
