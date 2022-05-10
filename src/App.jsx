@@ -1,23 +1,27 @@
-import "./app.css";
-import Navbar from "./components/navbar/Navbar";
-import Home from "./components/home/Home";
-import About from "./components/about/About";
-import Clients from "./components/clients/Clients";
-import ProductList from "./components/productList/ProductList";
-import Contact from "./components/contact/Contact";
+import React from "react";
+import Header from "./components/header/header";
+import Home from "./components/home/home";
+import About from "./components/about/about";
+import Navbar from "./components/nav/nav";
+import Members from "./components/members/members";
+import Portfolio from "./components/portfolio/portfolio";
+import Contact from "./components/contact/contact";
+import Footer from "./components/footer/footer";
 
-const App = () => {
+const WebContent = () => {
   return (
     <div>
+      <div className="bg-circle1"></div>
+      <div className="bg-circle2"></div>
+      <Header />
       <Navbar />
       <Home />
       <About />
-      <Clients />
-      <ProductList />
+      <Members />
+      <Portfolio />
       <Contact />
+      <Footer />
     </div>
   );
 };
-
-export default App;
-
+export default WebContent;

@@ -1,96 +1,48 @@
+import React from "react";
 import "./home.css";
-import {
-  SiJavascript,
-  SiReact,
-  SiNextdotjs,
-  SiHtml5,
-  SiCss3,
-  SiSass,
-  SiBootstrap,
-  SiTailwindcss,
-  SiMaterialui,
-  SiGithub,
-  SiFigma,
-  SiAdobexd,
-  SiAdobephotoshop,
-  SiAdobeillustrator,
-} from "react-icons/si";
-import Robot from "../../img/robot.png";
+import img from "../props/favicon.ico";
+import Buttons from "../button/button";
+import { BsMouse } from "react-icons/bs";
 
 const Home = () => {
   return (
-    <div className="h" id="home">
-      <div className="cube">
-        <SiJavascript />
-      </div>
-      <div className="cube">
-        <SiReact />
-      </div>
-      <div className="cube">
-        <SiNextdotjs />
-      </div>
-      <div className="cube">
-        <SiHtml5 />
-      </div>
-      <div className="cube">
-        <SiCss3 />
-      </div>
-      <div className="cube">
-        <SiBootstrap />
-      </div>
-      <div className="cube">
-        <SiSass />
-      </div>
-      <div className="cube">
-        <SiTailwindcss />
-      </div>
-      <div className="cube">
-        <SiMaterialui />
-      </div>
-      <div className="cube">
-        <SiGithub />
-      </div>
-      <div className="cube">
-        <SiFigma />
-      </div>
-      <div className="cube">
-        <SiAdobexd />
-      </div>
-      <div className="cube">
-        <SiAdobephotoshop />
-      </div>
-      <div className="cube">
-        <SiAdobeillustrator />
-      </div>
-      <div className="tube1"></div>
-      <div className="tube2"></div>
-      <div className="tube3"></div>
-      <div className="tube4"></div>
-      <div className="h-wraper">
-        <h2 className="h-intro">Welcome To My Portfolio</h2>
-        <h1 className="h-name">
-          <span style={{ fontSize: "28px", fontWeight: "200" }}>I'm</span> Ramy
-        </h1>
-        <div className="h-title">
-          <div className="h-title-wrapper">
-            <div className="h-title-item">Fron-End Dev</div>
-            <div className="h-title-item">JavaScript Dev</div>
-            <div className="h-title-item">React.js Dev</div>
-            <div className="h-title-item">Next.js Dev</div>
-            <div className="h-title-item">UI Dev</div>
-          </div>
+    <div id="home" className="container home-container">
+      <div className="logo">
+        <div className="hover-show">
+          <span className="circle"></span>
+          <span className="circle"></span>
+          <span className="circle"></span>
+          <span className="circle"></span>
+          <span className="circle"></span>
+          <span className="circle"></span>
+          <span className="circle"></span>
+          <span className="circle"></span>
         </div>
-        <div className="h-desc">
-          <p>
-            With me you will know
-            <br />
-            the meaning of professionalism
-          </p>
-        </div>
+
+        <img src={img} alt="img" />
       </div>
-      <div className="robotDiv">
-        <img src={Robot} alt="robot" />
-      </div>
+
+      <a href="#footer" className="scroll-down">
+        <hr />
+        <h5>scroll down</h5>
+        <BsMouse className="scroll" />
+        <hr />
+      </a>
+
+      <h2>
+        <span>About Me</span> <br />
+        <p>
+          I’m a developer who has a passion for building clean web apps with
+          intuitive functionality, Enjoy the process of turning ideas into
+          reality using creative solutions, and I’m always curious about
+          learning new skills, tools, and concepts, in addition to working on
+          various solo front-end projects, I have worked with creative teams,
+          which involves daily stand-ups and communications, source control, and
+          project management, I develop a simple, intuitive, and responsive user
+          interface that helps users get things done with less.
+        </p>
+      </h2>
+      <Buttons />
     </div>
   );
 };
